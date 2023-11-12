@@ -1,0 +1,62 @@
+/**
+ * Note: This is the config style, it is used to configure the whole page.
+ */
+
+:root {
+    /* 🎨 Note: This is a color palette computed by colorful-192x108-16bit-v15palette algorithm */
+
+    /* Note: --palette-0 is 1st most grouped color of the bottom half of the wallpaper that is dark enough to place light text in and similar enough (10%) to the average color of the bottom third of the wallpaper. */
+    --palette-0: #111122;
+    --palette-0-darken: #000000;
+    --palette-0-triplet: 17, 17, 34;
+    /* Note: --palette-1 is 3rd most satulighted color of the bottom half of the wallpaper which is contrast enough (50%) against the primary color. */
+    --palette-1: #ffee99;
+    --palette-1-darken: #998000;
+    --palette-1-triplet: 255, 238, 153;
+    /* Note: --palette-2 is 2nd most frequent color of the bottom half of the wallpaper which is distant enough (10%) and hue-distant enough (30°) from all other palette colors. */
+    --palette-2: #dd7766;
+    --palette-2-darken: #38130c;
+    --palette-2-triplet: 221, 119, 102;
+    /* Note: --palette-3 is 1st most satulighted color of the bottom half of the wallpaper which is distant enough (10%) and hue-distant enough (30°) from all other palette colors. */
+    --palette-3: #33aabb;
+    --palette-3-darken: #000000;
+    --palette-3-triplet: 51, 170, 187;
+
+    /* Note: Following are just copies of previously defined palette colors: */
+    --palette-4: var(--palette-0);
+    --palette-4-darken: var(--palette-0-darken);
+    --palette-4-triplet: var(--palette-0-triplet);
+    --palette-5: var(--palette-1);
+    --palette-5-darken: var(--palette-1-darken);
+    --palette-5-triplet: var(--palette-1-triplet);
+    --palette-6: var(--palette-2);
+    --palette-6-darken: var(--palette-2-darken);
+    --palette-6-triplet: var(--palette-2-triplet);
+    --palette-7: var(--palette-3);
+    --palette-7-darken: var(--palette-3-darken);
+    --palette-7-triplet: var(--palette-3-triplet);
+    --palette-8: var(--palette-0);
+    --palette-8-darken: var(--palette-0-darken);
+    --palette-8-triplet: var(--palette-0-triplet);
+    --palette-9: var(--palette-1);
+    --palette-9-darken: var(--palette-1-darken);
+    --palette-9-triplet: var(--palette-1-triplet);
+    --palette-10: var(--palette-2);
+    --palette-10-darken: var(--palette-2-darken);
+    --palette-10-triplet: var(--palette-2-triplet);
+    --palette-11: var(--palette-3);
+    --palette-11-darken: var(--palette-3-darken);
+    --palette-11-triplet: var(--palette-3-triplet);
+    --palette-12: var(--palette-0);
+    --palette-12-darken: var(--palette-0-darken);
+    --palette-12-triplet: var(--palette-0-triplet);
+    --palette-13: var(--palette-1);
+    --palette-13-darken: var(--palette-1-darken);
+    --palette-13-triplet: var(--palette-1-triplet);
+    --palette-14: var(--palette-2);
+    --palette-14-darken: var(--palette-2-darken);
+    --palette-14-triplet: var(--palette-2-triplet);
+    --palette-15: var(--palette-3);
+    --palette-15-darken: var(--palette-3-darken);
+    --palette-15-triplet: var(--palette-3-triplet);
+}
